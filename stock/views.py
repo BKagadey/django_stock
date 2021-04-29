@@ -8,8 +8,7 @@ from .models import Stock
 
 
 def home(request):
-    token = 'pk_f7b16ba036ca413fa34fb7958a8a43c0'
-    # midoc50067@hype68.com https://iexcloud.io/
+    token = 'pk_f7b16ba036ca413fa34f'
 
     if request.method == "POST":
         ticker = request.POST['ticker']
